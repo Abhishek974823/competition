@@ -89,10 +89,9 @@ color: a;
     margin-top: 100px;
 }
 .OUR {
-    color: white;
-    font-family: anton;
-    font-size: xx-large;
-    border: 2px;
+ font-size: 40px;
+  color: transparent;                /* no fill inside */
+  -webkit-text-stroke: 1px white;    /* border thickness + color */
 }
 .SPEAKERS {
     color: white;
