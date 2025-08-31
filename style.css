@@ -1,9 +1,90 @@
-body {
-    background-color:black;
-}
-.main {
-    width: 820px;
-    background-color: #30025e;
-    margin-left: 22%;
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Jaro:opsz@6..72&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.main {
+   
+    background-color: #1f003f;
+
+}
+.btn {
+background-color: #F949C8;
+color: a;
+}
+.heading {
+    color: white;
+    font-size: smaller;
+    display: inline;
+}
+.heading2 {
+    color:#F949C8;
+    font-size: smaller;
+    display: inline;
+}
+.text {
+    text-decoration: none;
+    list-style: none;
+}
+.meta {
+    color: white;
+    font-family: "Anton", sans-serif;
+}
+.hackathon {
+    color: #bcf645;
+    font-family: "Anton", sans-serif;
+}
+.work {
+    color:aliceblue;
+    font-family: "Anton", sans-serif;
+}
+.message {
+    color: #847894;
+    margin-left: 25px;
+}
+.button2 {
+    color:aliceblue;
+    background-color: #F949C8;
+    width: 200px;
+    height: 50px;
+    font-size: larger;
+    margin-left: 25px;
+}
+.image1 {
+    width: 350px;
+    height: 380px;
+    margin-left: 80px;
+}
+.container2 {
+    display: flex;
+    gap:800px;
+}
+.button1 {
+    color:aliceblue;
+    background-color: #F949C8;
+    width: 150px;
+    height: 50px;
+}
+.container3 {
+    margin-top: 50px;
+    display: flex;
+    gap: 300px;
+   
+}
+.date {
+    color: #a6cc49;
+}
+.mesg2 {
+    color:#d382de;
+    font-size: xx-large;
+    font-family: anton;
+    width: 200px;
+}
+.button3 {
+    background-color: aliceblue;
+    font-family: jaro;
+    width: 200px;
+    height: 50px;
+    font-size: xx-large;
+}
+.text_item2 {
+    margin-top: 100px;
 }
