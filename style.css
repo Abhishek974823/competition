@@ -88,3 +88,17 @@ color: a;
 .text_item2 {
     margin-top: 100px;
 }
+.OUR {
+    color: white;
+    font-family: anton;
+    font-size: xx-large;
+    border: 2px;
+}
+.SPEAKERS {
+    color: white;
+    font-family: anton;
+    font-size: xx-large;
+}
+.oder1 {
+    list-style: none;
+}
