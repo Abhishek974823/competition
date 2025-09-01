@@ -1,7 +1,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Jaro:opsz@6..72&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Asimovian&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&family=Anton&family=Asimovian&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaro:opsz@6..72&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.main {
+
+
+main {
    
     background-color: #1f003f;
 
@@ -12,13 +16,13 @@ color: a;
 }
 .heading {
     color: white;
-    font-size: smaller;
+    font-size: large;
     display: inline;
     margin-left: 80px;
 }
 .heading2 {
     color:#F949C8;
-    font-size: smaller;
+    font-size: large;
     display: inline;
     margin-left: 80px;
 }
@@ -71,31 +75,36 @@ color: a;
     width: 150px;
     height: 50px;
     margin-right: 60px;
+    font-family: jaro;
+    font-size: large;
 }
 .container3 {
     margin-top: 50px;
-    display: flex;
-    gap: 300px;
-   
+    display: flex; 
+    gap: 160px;
 }
 .date {
     color: #a6cc49;
+    font-size: larger;
+    margin-left: 90px;
 }
 .mesg2 {
     color:#d382de;
-    font-size: xx-large;
+    font-size: 70px;
     font-family: anton;
-    width: 200px;
+    min-width: 700px;
 }
 .button3 {
     background-color: aliceblue;
     font-family: jaro;
-    width: 200px;
-    height: 50px;
+    width: 180px;
+    height: 60px;
     font-size: xx-large;
+    margin-left: 95px;
 }
 .text_item2 {
-    margin-top: 100px;
+    margin-top: 70px;
+    width:300px;
 }
 .OUR {
  font-size: 40px;
@@ -113,4 +122,24 @@ color: a;
 .text_item {
     width: 600px;
     margin-left: 80px;
+}
+.nav_list {
+    list-style: none;
+    display: flex;
+    gap:25px;
+}
+.nav a {
+ text-decoration: none;  /* removes underline */
+  color: rgb(107, 107, 107);
+}
+.image2 {
+    width: 450px;
+    height: 430px;
+}
+.image3 {
+    width: 450px;
+    height: 430px;
+}
+.msg2{
+    margin-left: 45px;
 }
