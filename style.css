@@ -14,11 +14,13 @@ color: a;
     color: white;
     font-size: smaller;
     display: inline;
+    margin-left: 80px;
 }
 .heading2 {
     color:#F949C8;
     font-size: smaller;
     display: inline;
+    margin-left: 80px;
 }
 .text {
     text-decoration: none;
@@ -27,41 +29,48 @@ color: a;
 .meta {
     color: white;
     font-family: "Anton", sans-serif;
+    font-size: 100px;
+    
 }
 .hackathon {
     color: #bcf645;
     font-family: "Anton", sans-serif;
+    font-size: 105px;
 }
 .work {
     color:aliceblue;
     font-family: "Anton", sans-serif;
+    font-size: 90px;
 }
 .message {
     color: #847894;
     margin-left: 25px;
+    margin-bottom: 30px;
+    font-size: 25px;
 }
 .button2 {
     color:aliceblue;
     background-color: #F949C8;
-    width: 200px;
-    height: 50px;
-    font-size: larger;
+    width: 400px;
+    height: 70px;
+    font-size: xx-large;
     margin-left: 25px;
+    font-family: jaro;
 }
 .image1 {
-    width: 350px;
-    height: 380px;
-    margin-left: 80px;
+    width: 750px;
+    height: 750px;
+    margin-left: 35px;
 }
 .container2 {
     display: flex;
-    gap:800px;
 }
 .button1 {
     color:aliceblue;
     background-color: #F949C8;
     width: 150px;
     height: 50px;
+    margin-right: 60px;
 }
 .container3 {
     margin-top: 50px;
@@ -100,4 +109,8 @@ color: a;
 }
 .oder1 {
     list-style: none;
+}
+.text_item {
+    width: 600px;
+    margin-left: 80px;
 }
